@@ -59,8 +59,6 @@ class Home extends StatelessWidget {
 //        ],
 //      ),
 
-
-
 //      child: Text(
 //        "Hello container",
 //        textDirection: TextDirection.ltr,
