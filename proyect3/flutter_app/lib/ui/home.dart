@@ -44,6 +44,23 @@ class Home extends StatelessWidget {
             ],
           ),
         ),
+      bottomNavigationBar: new BottomNavigationBar(
+        currentIndex: 0,
+          items: [
+             BottomNavigationBarItem(
+                icon: new Icon(Icons.add),
+                title: new Text("Hey ")
+            ),
+             BottomNavigationBarItem(
+                icon: new Icon(Icons.print),
+                title: new Text("Nope ")
+            ),
+             BottomNavigationBarItem(
+                icon: new Icon(Icons.call_missed),
+                title: new Text("Nopopopop")
+            )
+          ],
+      ),
     );
   }
 }
