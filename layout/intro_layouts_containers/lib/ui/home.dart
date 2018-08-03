@@ -7,30 +7,54 @@ class Home extends StatelessWidget {
     return Container(
       color: Colors.greenAccent,
       alignment: Alignment.center,
-      child: Column(
+
+      child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text("First item",
-          textDirection: TextDirection.ltr,
-          style: TextStyle(
-            color: Colors.white
-          ),
-          ),
-          Text("second Item",
-          textDirection: TextDirection.ltr,
-          style: TextStyle(color: Colors.blue)
-          ),
-          Container(
-            color: Colors.deepOrange.shade50,
-            alignment: Alignment.bottomLeft,
-            child: Text("Third item",
-              textDirection: TextDirection.ltr,
-              style: TextStyle(
-                  color: Colors.blue,
-                  fontSize: 10.1),)
-          )
+          Text(
+            "Item 1",
+            textDirection: TextDirection.ltr,
+            style: TextStyle(fontSize:  12.9),),
+          Text(
+            "Item 2",
+            textDirection: TextDirection.ltr,
+            style: TextStyle(fontSize:  12.9),),
+         const Expanded(child: const Text("Item 3"))
         ],
-      ),
+      )
+
+
+
+
+
+
+//      child: Column(
+//        mainAxisAlignment: MainAxisAlignment.center,
+//        children: <Widget>[
+//          Text("First item",
+//          textDirection: TextDirection.ltr,
+//          style: TextStyle(
+//            color: Colors.white
+//          ),
+//          ),
+//          Text("second Item",
+//          textDirection: TextDirection.ltr,
+//          style: TextStyle(color: Colors.blue)
+//          ),
+//          Container(
+//            color: Colors.deepOrange.shade50,
+//            alignment: Alignment.bottomLeft,
+//            child: Text("Third item",
+//              textDirection: TextDirection.ltr,
+//              style: TextStyle(
+//                  color: Colors.blue,
+//                  fontSize: 10.1),)
+//          )
+//        ],
+//      ),
+
+
+
 //      child: Text(
 //        "Hello container",
 //        textDirection: TextDirection.ltr,
