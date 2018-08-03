@@ -8,24 +8,30 @@ class Home extends StatelessWidget {
       color: Colors.greenAccent,
       alignment: Alignment.center,
 
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+      child: new Stack(
+        alignment: Alignment.bottomCenter,
         children: <Widget>[
-          Text(
-            "Item 1",
-            textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize:  12.9),),
-          Text(
-            "Item 2",
-            textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize:  12.9),),
-         const Expanded(child: const Text("Item 3"))
+          const Text("Hello there"),
+          const Text("Hello Again"),
+          const Text("1"),
         ],
-      )
+      ),
 
 
-
-
+//      child: Row(
+//      mainAxisAlignment: MainAxisAlignment.center,
+//      children: <Widget>[
+//        Text(
+//          "Item 1",
+//          textDirection: TextDirection.ltr,
+//          style: TextStyle(fontSize:  12.9),),
+//        Text(
+//          "Item 2",
+//          textDirection: TextDirection.ltr,
+//          style: TextStyle(fontSize:  12.9),),
+//        const Expanded(child: const Text("Item 3"))
+//      ],
+//    )
 
 
 //      child: Column(
