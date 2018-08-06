@@ -60,6 +60,7 @@ class Home extends StatelessWidget {
                 title: new Text("Nopopopop")
             )
           ],
+          onTap:(int i)=> debugPrint("Hey Touched $i") ,
       ),
     );
   }
